@@ -86,11 +86,11 @@ while keep_playing == True:
             else:
                 input_correct = False
                 while input_correct == False:
-                  player_stick_input = input("Would you like to stick or hit (stick/hit):\t")
+                  player1_stick_input = input("Would you like to stick or hit (stick/hit):\t")
                   if player_stick_input.lower() in ['s','stick','1']:
                       player1_stick = True
                       input_correct = True
-                  elif player_stick.intput.lower() in ['h','hit','2']:
+                  elif player1_stick.input.lower() in ['h','hit','2']:
                     input_correct = True
                   else:
                     print("Incorrect input, try again!")
@@ -111,7 +111,7 @@ while keep_playing == True:
                   if player_stick_input.lower() in ['s','stick','1']:
                       player2_stick = True
                       input_correct = True
-                  elif player_stick.intput.lower() in ['h','hit','2']:
+                  elif player2_stick.intput.lower() in ['h','hit','2']:
                     input_correct = True
                   else:
                     print("Incorrect input, try again!")
